@@ -1,1 +1,153 @@
+from pathlib import Path
 
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Nyimbo za Kristo" />
+  <title>Privacy Policy - Nyimbo za Kristo</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2F557F;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      color: var(--accent);
+      font-size: 1.15rem;
+    }
+
+    p, li {
+      margin: 0 0 14px;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 0.95rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 18px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 20px auto;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Privacy Policy for Nyimbo za Kristo</h1>
+      <p class="meta"><strong>Effective date:</strong> March 15, 2026</p>
+
+      <p>
+        Nyimbo za Kristo respects your privacy. This Privacy Policy explains how the app handles user information.
+      </p>
+
+      <h2>Information We Collect</h2>
+      <p>
+        Nyimbo za Kristo does not collect, store, process, or share any personal information from users.
+      </p>
+      <p>
+        The app does not require user registration and does not request personal details such as your name, email address,
+        phone number, location, or payment information.
+      </p>
+
+      <h2>How We Use Information</h2>
+      <p>
+        Since Nyimbo za Kristo does not collect any personal information, no personal data is used, processed, or shared.
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Nyimbo za Kristo does not use third-party services to collect personal information from users.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        Nyimbo za Kristo does not collect personal information from anyone, including children.
+      </p>
+
+      <h2>Data Security</h2>
+      <p>
+        Because Nyimbo za Kristo does not collect or store personal data, there is no user personal information held by the app.
+      </p>
+
+      <h2>Changes to This Privacy Policy</h2>
+      <p>
+        This Privacy Policy may be updated from time to time. Any changes will be posted on this page with an updated effective date.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have any questions about this Privacy Policy, you can contact the developer at:
+        <a href="mailto:your-email@example.com">your-email@example.com</a>
+      </p>
+
+      <div class="footer">
+        <p><strong>Developer:</strong> Nyimbo za Kristo</p>
+        <p>Please replace <strong>your-email@example.com</strong> with your real contact email before publishing.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
